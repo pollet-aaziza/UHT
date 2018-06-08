@@ -18,7 +18,7 @@ html {
 
 
 
-}
+
 
 
 /*
@@ -107,6 +107,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
    p {
      color:#223843;
      font-size: 20px;
@@ -114,20 +115,27 @@ textarea {
    font-family: 'Open Sans', sans-serif;
 
    }
+   .flex{
+     display: flex;
+   }
 
    img {
    height: 100px;
    widht: auto;
    }
-
+ div{
+   background-color:#D8C99B;
+ }
 
    /* Je sélectionne les <li> du menu horizontal */
-   ul#menu_horizontal li {
+   ul{
    display : inline;
    padding : 0 0.5em; /* Pour espacer les boutons entre eux */
    }
-   ul#menu_horizontal {
-   list-style-type : none; /* Car sinon les puces se placent n'importe où */
+   ul{
+   list-style-type : none; /* sinon les puces se placent n'importe où */
+   display : inline;
+   padding : 0.5 0.5.8em; /* Pour espacer les boutons entre eux */
    }
    .centre_bloc
    {
@@ -142,14 +150,10 @@ textarea {
    margin: 0 auto 0 auto;
 
    }
-   body{
-     background-image: url(../img/logouht.jpg);
-     background-repeat: no-repeat;
-     background-position: center;
-   }
-   h2{
-     background-color: #D7D9CE;
-   }
+
+   .textewelcome{
+     text-align: center;
+  }
    td{
      border: 1px solid black;
    }
@@ -169,11 +173,12 @@ textarea {
    img{
      width: 10%;
    }
-   .flex {
-     display: flex;
-   }
+
    ul{
      color:#223843
+     }
+     .textefooter{
+       text-align: center;
      }
 
 
