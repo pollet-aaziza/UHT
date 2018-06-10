@@ -10,11 +10,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+   html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-}
+    }
 
 
 
@@ -107,60 +107,93 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-   p {
-     color:#223843;
-     font-size: 20px;
-     font-family: 'Roboto', sans-serif;
-   font-family: 'Open Sans', sans-serif;
-
-   }
+   /*-----start of index class's*/
    .flex{
      display: flex;
    }
 
-   img {
-   height: 100px;
-   widht: auto;
+   .logoheader{
+   width: 250px;
+   height:auto;
+   margin-left: 41%;
    }
- div{
+   .textewelcome{
+     text-align: center;
+  }
+
+   .main{
+     background-color: #F9FBB2;
+   }
+
+   .titlearticle{
+     text-align: center;
+   }
+   .news{
+     border: 3px solid #090302;
+     border-radius: 3px;
+     padding-bottom: 2em;
+     width: 100%;
+      margin-bottom: 2em;
+   }
+
+   .imgarticles{
+     width: 100%;
+   }
+
+   .imgarticles1{
+     width: 20%;
+   }
+   .fete .goute .fph{
+     vertical-align: middle;
+   }
+
+   .imgarticles1{
+     width: 40%
+   }
+   .liens{
+     text-align: center;
+   }
+   /*-----end of index class's---*/
+
+
+     p {
+     color:#223843;
+     font-size: 20px;
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+   }
+
+  h1+div{
    background-color:#D8C99B;
- }
+  }
+  .formulaire{
+    align-items: center;
+  }
 
    /* Je sélectionne les <li> du menu horizontal */
    ul{
    display : inline;
-   padding : 0 0.5em; /* Pour espacer les boutons entre eux */
-   }
-   ul{
-   list-style-type : none; /* sinon les puces se placent n'importe où */
-   display : inline;
-   padding : 0.5 0.5.8em; /* Pour espacer les boutons entre eux */
-   }
-   .centre_bloc
-   {
-
-     margin-right: auto;
-     margin-left: auto;
-   }
-   .displayed{
-   /*width: 400px;
-   height:400px;*/
-   position: relative;
-   margin: 0 auto 0 auto;
-
+   padding : 0 .5em; /* Pour espacer les boutons entre eux */
+   list-style-type : none;
+     padding: 2%
    }
 
-   .textewelcome{
+
+   .contactfooter{
      text-align: center;
-  }
+   }
+
+
+
+
    td{
      border: 1px solid black;
    }
+
    table{
      border-collapse: collapse;
    }
-   .tcenter{
+   .tfooter{
      text-align: center;
    }
    a{
@@ -170,17 +203,42 @@ textarea {
      font-family: 'Indie flower', cursive;
      color:#223843
    }
-   img{
-     width: 10%;
+
+   .logomjc{
+     position: relative;
+     margin-right: 0;
+     width: 15%;
+     height: auto;
    }
 
+   .logoph{
+     position: absolute;
+     margin-right: 50%;
+     width: 15%;
+     height: auto;
+   }
    ul{
      color:#223843
      }
-     .textefooter{
+     .textefooter h2{
+      text-align: center;
+     }
+     .logo{
+      width: 10%;
+      height: 10%;
+     }
+     h2{
        text-align: center;
      }
+     .imgmemebres{
+       width: 100%
+     }
 
+     .table{
+
+         margin:auto;
+
+     }
 
 
 
