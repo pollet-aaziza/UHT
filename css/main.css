@@ -108,8 +108,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /*-----start of index class's*/
+  nav {
+       display: flex;
+       justify-content: space-between;
+       background-color: red;
+       }
+       nav ul{
+         padding: 0;
+         background-color: green;
+         justify-content: space-between;
+       }
    .flex{
      display: flex;
+
    }
 
    .logoheader{
@@ -171,11 +182,11 @@ textarea {
   }
 
    /* Je sélectionne les <li> du menu horizontal */
-   ul{
+  footer ul{
    display : inline;
    padding : 0 .5em; /* Pour espacer les boutons entre eux */
    list-style-type : none;
-     padding: 2%
+    
    }
 
 
@@ -217,9 +228,7 @@ textarea {
      width: 15%;
      height: auto;
    }
-   ul{
-     color:#223843
-     }
+
      .textefooter h2{
       text-align: center;
      }
