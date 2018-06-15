@@ -141,6 +141,9 @@ nav ul{
   padding: 0;
   justify-content: space-around;
 }
+nav{
+  background-color: #B8D5B8;
+}
 
 header figure {
   background-color: green;
@@ -149,7 +152,7 @@ header figure {
 }
 
  h1{
-   font-family: 'Indie flower', cursive;
+   font-family: 'Roboto', sans-serif;, cursive;
    color:#223843
  }
 
@@ -184,7 +187,8 @@ header figure {
    }
 
    .imgarticles{
-     max-height: 200px;
+     max-height: 1800px;
+     max-width: 900px;
    }
 
    .liens{
@@ -206,6 +210,9 @@ header figure {
    /* Je sélectionne les <li> du menu horizontal */
   footer ul{
    padding : 0 .5em; /* Pour espacer les boutons entre eux */
+   }
+   footer{
+     background-color: #B8D5B8;
    }
 
    .contactfooter{
