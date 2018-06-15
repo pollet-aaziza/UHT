@@ -107,129 +107,123 @@ Browser Upgrade Prompt
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
-/*-----start of index class's*/
-nav {
+
+/*Utility classes*/
+.flex {
   display: flex;
-  justify-content: space-between;
-  background-color: red;
+ }
+/*End utitlity classes*/
+
+/*Global rules*/
+a {
+ text-decoration: none;
 }
+
+ul {
+  list-style-type: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+/*End Global rules*/
+
+/*Template Styles*/
+
+/*Header*/
+
 nav ul{
+  width: 30%;
   padding: 0;
+  justify-content: space-around;
+}
+
+header figure {
   background-color: green;
-  justify-content: space-between;
+  width: 25%;
+  margin: auto;
 }
 
-.flex{
-  display: flex;
+ h1{
+   font-family: 'Indie flower', cursive;
+   color:#223843
+ }
 
-}
+ /*Footer*/
 
-.logoheader{
-  width: 250px;
-  height:auto;
-  margin-left: 41%;
-}
-.textewelcome{
-  text-align: center;
-}
-
-.main{
-  background-color: #F9FBB2;
-}
-
-.titlearticle{
-  text-align: center;
-}
-.news{
-  border: 3px solid #090302;
-  border-radius: 3px;
-  padding-bottom: 2em;
-  width: 100%;
-  margin-bottom: 2em;
-}
-
-.imgarticles{
-  width: 100%;
-}
-
-.imgarticles1{
-  width: 20%;
-  width: 40%
-}
-.fete .goute .fph{
-  vertical-align: middle;
-}
-
-.liens{
-  text-align: center;
-}
-/*-----end of index class's---*/
+/*End Template style*/
 
 
-p {
-  color:#223843;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-}
+/*-----start of index class's*/
 
-h1+div{
-  background-color:#D8C99B;
-}
-.formulaire{
-  align-items: center;
-}
+    main {
+      width: 95%;
+      margin: auto;
+      text-align: center;
+    }
 
-/* Je sélectionne les <li> du menu horizontal */
-footer ul{
-  display : inline;
-  padding : 0 .5em; /* Pour espacer les boutons entre eux */
-  list-style-type : none;
+   .main{
+     background-color: #F9FBB2;
+   }
 
-}
+  #articleContainer {
+    justify-content: space-around;
+  }
 
+   .news{
+     border: 3px solid #090302;
+     border-radius: 3px;
+     padding-bottom: 2em;
+     width: 30%;
+     margin-bottom: 2em;
+     padding-top: 1em;
+   }
 
-.contactfooter{
-  text-align: center;
-}
+   .imgarticles{
+     max-height: 200px;
+   }
 
-
-td{
-  border: 1px solid black;
-}
-
-table{
-  border-collapse: collapse;
-}
-.tfooter{
-  text-align: center;
-}
-a{
-  text-decoration: none;
-}
-h1{
-  font-family: 'Indie flower', cursive;
-  color:#223843
-}
+   .liens{
+     padding-bottom: 1em;
+   }
+   /*-----end of index class's---*/
 
 
-}
-.logo{
-  width: 10%;
-  height: 10%;
-}
-h2{
-  text-align: center;
-}
-.imgmemebres{
-  width: 100%
-}
+   p {
+     color:#223843;
+     font-size: 20px;
+     font-family: 'Open Sans', sans-serif;
+    }
 
-.table{
+  h1+div{
+   background-color:#D8C99B;
+  }
 
-  margin:auto;
+   /* Je sélectionne les <li> du menu horizontal */
+  footer ul{
+   padding : 0 .5em; /* Pour espacer les boutons entre eux */
+   }
 
-}
+   .contactfooter{
+     text-align: center;
+   }
+
+   td{
+     border: 1px solid black;
+   }
+
+   table{
+     border-collapse: collapse;
+     margin:auto;
+   }
+
+   .tfooter{
+     text-align: center;
+   }
 
 
 
